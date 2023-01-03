@@ -18,6 +18,12 @@ Saving and loading of saved scenes. The files themselves can be found in the sav
 
 Scene is saved as plain-text serialized Lua, it can be loaded into other projects by using [phywire](https://github.com/jmiskovic/lovr-phywire) library using the "snapshot" feature.
 
+#### Controls
+
+Either hand can operate all the listed commands.
+
+Use Trigger to interact with UI Windows. Point at the collider and use A or X button to select it. Hold the GRIP button and move the hand to push the selected collider around. Use thumbstick while holding the GRIP to rotate it.
+
 #### World settings window
 
 Allows changing the global physics world settings.
