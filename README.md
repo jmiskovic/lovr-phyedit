@@ -6,6 +6,15 @@ VR editor for creating and testing the virtual physics simulations. It exposes m
 
 Beware, this is a pre-alpha quality release - it is not well tested and can be prone to crashes. I would welcome any issue reports, feature requests, pull requests or any other feedback.
 
+#### Controls
+
+Either hand can operate all the listed commands.
+
+* Use Trigger to interact with UI Windows
+* Point at the collider and use A or X button to select it
+* Hold the GRIP button and move the hand to push the selected collider around
+* Use thumbstick while holding the GRIP to rotate the selected collider
+
 #### Scenes window
 
 Saving and loading of saved scenes. The files themselves can be found in the save directory:
@@ -17,12 +26,6 @@ Saving and loading of saved scenes. The files themselves can be found in the sav
 ![scenes_screen](media/scenes_screen.png)
 
 Scene is saved as plain-text serialized Lua, it can be loaded into other projects by using [phywire](https://github.com/jmiskovic/lovr-phywire) library using the "snapshot" feature.
-
-#### Controls
-
-Either hand can operate all the listed commands.
-
-Use Trigger to interact with UI Windows. Point at the collider and use A or X button to select it. Hold the GRIP button and move the hand to push the selected collider around. Use thumbstick while holding the GRIP to rotate it.
 
 #### World settings window
 
